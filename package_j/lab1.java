@@ -1,7 +1,14 @@
+package package_j;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class lab1 {
+    
+    /** 
+     * Command-line arguments
+     * @param args
+     */
     public static void main(String[] args) {
         ArrayList<fibonacci> fiboList = new ArrayList<>();
         int N, digit;
