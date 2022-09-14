@@ -1,3 +1,5 @@
+package package_j;
+
 /**
  * Class that contains fibonacci number`s value and order
  */
@@ -51,6 +53,6 @@ public class fibonacci {
      * @return boolean - returns true or false depending on the result of calculation
      */
     public boolean lastDigit(int digit){
-        return (this.value % 10 == digit)? true : false;
+        return this.value % 10 == digit;
     }
 }
